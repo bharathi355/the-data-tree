@@ -48,7 +48,8 @@ function processCSVData(lines: string[]): DataNode {
     let currentNode = root;
       const levels = [level1, ...rest];
 
-      for (const [index, levelN] of levels.entries()) {
+      // for (const [index, levelN] of levels.entries()) {
+      for (const [index, levelN] of Array.from(levels.entries())) {
           let existingChild = currentNode.children.find(child => child.label === levelN);
 
           if(existingChild) {
@@ -164,7 +165,7 @@ export default function MindMap({ file }: MindMapProps) {
 
      useEffect(() => {
     if (reactFlowWrapper.current) {
-        setReactFlowInstance(reactFlowWrapper.current);
+        // setReactFlowInstance(reactFlowWrapper.current);
     }
   }, []);
 
