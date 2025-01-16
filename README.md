@@ -14,6 +14,18 @@ This project is built using **Next.js** and **TypeScript**, providing a robust a
 *   **User-Friendly Interface:** Intuitive design ensures a smooth user experience for all skill levels.
 *   **TypeScript & Next.js:** Built with modern web technologies for performance and maintainability.
 
+#
+
+![alt text](image-1.png)
+
+#
+
+![alt text](image-2.png)
+
+
+#
+![alt text](image.png)
+#
 ## Getting Started
 
 Follow these steps to get The Data Tree up and running on your local machine:
@@ -63,19 +75,30 @@ npm run build
 ```
 
 This will generate a build folder, ready for deployment.
+#
+Sample CSV Data
+```
+Task Category,Sub Category,Task,Days Spent
+Project Management,Planning,Define project scope,2
+Project Management,Execution,Monitor progress,5
+Project Management,Review,Conduct project retrospective,2
+Development,Frontend,Design user interface,4
+Project Management,Planning,Create project timeline,3
+Project Management,Execution,Assign tasks to team members,1
+Development,Frontend,Develop UI components,6
+Development,Backend,Set up database schema,3
+Development,Backend,Implement APIs,5
+Testing,Functional,Write test cases,2
+Testing,Functional,Perform functional testing,3
+Testing,Performance,Conduct load testing,4
+Testing,Performance,Optimize application performance,3
+Documentation,Internal,Write technical documentation,2
+Documentation,External,Prepare user guides,3
+```
+
 
 ## Contributing
 
 We welcome contributions to The Data Tree project! Feel free to submit pull requests with improvements, bug fixes, or new features.
-#
 
-![alt text](image-1.png)
-
-#
-
-![alt text](image-2.png)
-
-
-#
-![alt text](image.png)
 
